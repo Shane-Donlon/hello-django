@@ -1,0 +1,6 @@
+<h1>Editing {{ task.id }}</h1>
+<form method="post">
+    {% csrf_token %}
+    {{ task.as_p }}
+    <button type="submit">Update Task</button>
+</form>
