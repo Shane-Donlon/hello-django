@@ -7,3 +7,9 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
+Lib
+Scripts
+*.env
+*.sqlite3
+*.bat
+*.cfg
