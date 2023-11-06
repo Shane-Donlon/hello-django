@@ -29,9 +29,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["hello-django-ci-sd-elephant-sq-5a128525b381.herokuapp.com/"]
+ALLOWED_HOSTS = ["hello-django-ci-sd-elephant-sq-5a128525b381.herokuapp.com"]
 
 
 # Application definition
