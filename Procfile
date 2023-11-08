@@ -1,2 +1,1 @@
-web: gunicorn mysite.wsgi:app
-worker: lein run -m mysite.worker
+web: gunicorn mysite.wsgi
