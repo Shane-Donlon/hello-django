@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
-import django_on_heroku
 import os
 from pathlib import Path
 
@@ -31,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["hello-django-ci-sd-elephant-sq-5a128525b381.herokuapp.com"]
+ALLOWED_HOSTS = ["hello-django-ci-sd-elephant-sq-5a128525b381.herokuapp.com","127.0.0.1"]
 
 
 # Application definition
@@ -126,5 +125,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Configure Django App for Heroku.
-django_on_heroku.settings(locals())
+
